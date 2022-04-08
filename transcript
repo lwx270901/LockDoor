@@ -1,0 +1,15 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project D_latchTB
+# reading C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project DoorLock
+# Compile of DoorLockProject.v was successful.
+# Compile of DoorLockProject.vt was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui work.DoorLockProject_vlg_tst
+# vsim -gui work.DoorLockProject_vlg_tst 
+# Loading work.DoorLockProject_vlg_tst
+# Loading work.DoorLockProject
+# Loading work.modN_ctr
+add wave -position insertpoint sim:/DoorLockProject_vlg_tst/*
+run
+# Running testbench
